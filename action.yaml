@@ -1,6 +1,8 @@
 # action.yml
 name: 'thinkdolabs/curl'
 description: 'curl'
+icon:command
 runs:
   using: 'docker'
   image: 'Dockerfile'
+  
