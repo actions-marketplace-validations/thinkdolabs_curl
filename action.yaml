@@ -1,0 +1,6 @@
+# action.yml
+name: 'curl'
+description: 'curl'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
