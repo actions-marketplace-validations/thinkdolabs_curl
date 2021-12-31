@@ -9,8 +9,7 @@ LABEL "repository"="http://github.com/wei/curl"
 LABEL "homepage"="http://github.com/wei/curl"
 LABEL "maintainer"="Wei He <github@weispot.com>"
 
-RUN apk add --no-cache curl ca-certificates
-
+RUN apk update && apk add --no-cache curl ca-certificates
 ADD *.sh /
 
 ENTRYPOINT ["/entrypoint.sh"]
